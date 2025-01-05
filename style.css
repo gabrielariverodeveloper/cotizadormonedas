@@ -1,0 +1,70 @@
+
+/* Estilo general para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo para la barra de navegación */
+  nav.titulos {
+    background-color: #d5f5e3;
+    color: black;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilo para el título */
+  nav.titulos h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  /* Estilo para la fecha */
+  nav.titulos h2 {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+  }
+  
+  /* Estilo para la tabla */
+  table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+  }
+  
+  table th, table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilo para las celdas con las cotizaciones */
+  table td {
+    font-size: 1.1em;
+  }
+  
+  /* Estilo para el pie de página */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #d5f5e3;
+    color: black;
+  }
+  
+  footer h6 {
+    margin: 0;
+    font-size: 1em;
+  }
+  
